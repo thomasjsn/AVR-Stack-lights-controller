@@ -1,6 +1,6 @@
 Report       : Stack-light-controller
 Date         : 09-09-2017
-Time         : 12:41:58
+Time         : 12:44:43
 
 Compiler     : BASCOM-AVR LIBRARY V 2.0.7.8
 Processor    : TINY2313
@@ -8,11 +8,11 @@ SRAM         : 80 hex
 EEPROM       : 80 hex
 ROMSIZE      : 800 hex
 
-ROMIMAGE     : 614 hex  -> Will fit into ROM
-ROMIMAGE     :  1556 dec
-FLASH USED   :  75  %
+ROMIMAGE     : 742 hex  -> Will fit into ROM
+ROMIMAGE     :  1858 dec
+FLASH USED   :  90  %
 BAUD         : 9600 Baud
-XTAL         : 4000000 Hz
+XTAL         : 8000000 Hz
 BAUD error   : 0.16%
 
 Stack start  : DF hex
@@ -21,7 +21,7 @@ S-Stacksize  : 10 hex
 S-Stackstart : B8 hex
 Framesize    : 20 hex
 Framestart   : 88 hex
-Space left   :  22  dec
+Space left   :  24  dec
 
 LCD DB7      : PORTB.7
 LCD DB6      : PORTB.6
@@ -88,15 +88,21 @@ COMPARE1B                        Word              0048          72
 PWM0A                            Byte              0056          86 
 PWM0B                            Byte              005C          92 
 ERR                              Bit [2]           0006          6 
-LIFESIGNAL                       Integer           0060          96 
-A                                Byte              0062          98 
-CRITICAL                         Integer           0063          99 
-INN0                             Integer           0065          101 
-INN1                             Integer           0067          103 
-INN2                             Integer           0069          105 
-INN3                             Integer           006B          107 
-INN4                             Integer           006D          109 
-INN5                             Integer           006F          111 
+LIFESIGNAL                       Byte              0060          96 
+INN0                             Byte              0061          97 
+INN1                             Byte              0062          98 
+INN2                             Byte              0063          99 
+INN3                             Byte              0064          100 
+INN4                             Byte              0065          101 
+INN5                             Byte              0066          102 
+INN6                             Byte              0067          103 
+MUTE                             Byte              0068          104 
+BUFFER1                          Byte              0069          105 
+BUFFER2                          Byte              006A          106 
+BUFFER3                          Byte              006B          107 
+BUFFER4                          Byte              006C          108 
+BUFFER5                          Byte              006D          109 
+BUFFER0                          Byte              006E          110 
 
 --------------------------------------------------------------------------------
 Constant                         Value
@@ -523,7 +529,7 @@ _ERAMSIZE                        128
 _SIM                             0
 _HUGE                            0
 _BASE                            1
-_XTAL                            4000000
+_XTAL                            8000000
 _BUILD                           20781
 _COMPILER                        90
 _HWMUL                           0
