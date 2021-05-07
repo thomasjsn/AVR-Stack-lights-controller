@@ -2,9 +2,9 @@
 
 > A control module for a green, yellow and red stack light, and signalling horn.
 
-Project documentation available at: https://cavelab.dev/wiki/Stack_lights_and_horn_controller
+Project documentation available at: https://blog.cavelab.dev/2006/05/avr-stack-lights-controller/
 
-![Stack lights and horn controller](https://cavelab.dev/images/4/4a/Stack-lights-controller-in-rack-box-gypxog.jpeg)
+![Stack lights and horn controller](https://i.logistics.cavelab.net/large/1272.jpeg)
 
 Written in basic, using [BASCOM-AVR](http://www.mcselec.com/).
 
@@ -12,10 +12,10 @@ Written in basic, using [BASCOM-AVR](http://www.mcselec.com/).
 **Thomas Jensen**
 * Twitter: [@thomasjsn](https://twitter.com/thomasjsn)
 * Github: [@thomasjsn](https://github.com/thomasjsn)
-* Website: [cavelab.dev](https://cavelab.dev/wiki/User:Thomas)
+* Website: [cavelab.dev](https://cavelab.dev)
 
 ## License
 The MIT License (MIT). Please see [license file](LICENSE.txt) for more information.
 
 ---
-_This README was automatically generated using the MediaWiki API_ (`pageid:342`)
+_This README was automatically generated using µLogistics_ (`projectid:165`)
